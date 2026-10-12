@@ -1,0 +1,1 @@
+export default function PageHero({kicker,title,text,children}){return <section className="page-hero"><div className="medical-orb orb-a"/><div className="medical-orb orb-b"/><div className="container position-relative"><span className="section-kicker kicker-light">{kicker}</span><h1>{title}</h1>{text&&<p>{text}</p>}{children}</div></section>}
