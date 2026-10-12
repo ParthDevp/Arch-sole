@@ -31,6 +31,10 @@
 .mobile-action-bar-inner{width:100%}
 .mobile-action-btn{font-size:.92rem;font-weight:700;padding:.72rem .85rem!important;border-radius:999px!important;white-space:nowrap;box-shadow:0 4px 14px rgba(0,0,0,.08)}
 .mobile-action-btn i{font-size:1.05rem}
+.mobile-hero-section{background:linear-gradient(180deg,#f2f9fa,#fff);border-bottom:1px solid var(--line);padding-bottom:12px}
+.mobile-hero-card{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 8px 24px rgba(8,58,72,.07)}
+.mobile-hero-card img{width:100%;height:auto;display:block;border-radius:18px}
+.mobile-trust-chip{display:flex;align-items:center;justify-content:center;background:var(--brand-light);color:var(--ink);font-size:.86rem;font-weight:650;padding:8px 14px;border-radius:999px;border:1px solid rgba(11,111,132,.12)}
 @media(max-width:1199px){
   .site-logo{width:145px;height:62px}
   .navbar{min-height:76px}

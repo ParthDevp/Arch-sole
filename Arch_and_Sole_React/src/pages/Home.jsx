@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 
 export default function Home(){
   return <>
-    <section className="hero premium-hero hero-image-banner" aria-label="Arch & Sole clinic hero banner">
+    {/* Desktop Hero: Full width background banner */}
+    <section className="hero premium-hero hero-image-banner d-none d-md-flex" aria-label="Arch & Sole clinic hero banner">
       <div className="hero-image-shade" aria-hidden="true" />
       <div className="container hero-image-content">
         <div className="hero-image-actions">
@@ -14,6 +15,37 @@ export default function Home(){
         <div className="hero-trust hero-image-trust">
           <span><i className="bi bi-shield-check"/> Patient-first care</span>
           <span><i className="bi bi-clock"/> Monday to Saturday · 10 AM–8 PM</span>
+        </div>
+      </div>
+    </section>
+
+    {/* Mobile Hero: Dedicated layout with 100% UN-CROPPED banner image */}
+    <section className="mobile-hero-section d-md-none" aria-label="Arch & Sole clinic banner">
+      <div className="container pt-3 pb-2">
+        <div className="mobile-hero-card shadow-sm rounded-4 overflow-hidden mb-3">
+          <img
+            src="/images/hero.jpeg"
+            alt="Arch & Sole Clinic — Foot Analytics & Customized Orthotics"
+            className="img-fluid w-100 d-block"
+          />
+        </div>
+        <div className="d-flex flex-column gap-2 mb-3">
+          <Link className="btn btn-brand btn-lg rounded-pill w-100 text-center" to="/services">
+            Explore Services <i className="bi bi-arrow-right ms-2"/>
+          </Link>
+          <Link className="btn btn-outline-brand btn-lg rounded-pill w-100 text-center" to="/team">
+            Meet Our Team
+          </Link>
+        </div>
+        <div className="d-flex flex-column gap-2">
+          <div className="mobile-trust-chip">
+            <i className="bi bi-shield-check text-brand me-2"/>
+            <span>Patient-first care</span>
+          </div>
+          <div className="mobile-trust-chip">
+            <i className="bi bi-clock text-brand me-2"/>
+            <span>Monday to Saturday · 10 AM–8 PM</span>
+          </div>
         </div>
       </div>
     </section>
