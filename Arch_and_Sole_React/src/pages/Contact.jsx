@@ -62,12 +62,12 @@ export default function Contact() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
-            <div className="map-actions mt-3 d-flex gap-3 align-items-center">
+            <div className="map-actions mt-3 d-flex flex-wrap gap-3 align-items-center">
               <a
                 href="https://maps.app.goo.gl/FoaFmFpebqRWgdUWA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-brand rounded-pill px-4"
+                className="btn btn-brand rounded-pill px-4 w-100-mobile"
               >
                 <i className="bi bi-map me-2" />
                 Open in Google Maps
@@ -76,7 +76,7 @@ export default function Contact() {
                 href="https://maps.app.goo.gl/FoaFmFpebqRWgdUWA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-outline-brand rounded-pill px-4"
+                className="btn btn-outline-brand rounded-pill px-4 w-100-mobile"
               >
                 <i className="bi bi-signpost-2 me-2" />
                 Get Directions

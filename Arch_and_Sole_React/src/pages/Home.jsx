@@ -26,7 +26,7 @@ export default function Home(){
             <h2 className="section-heading">Specialized care for every step</h2>
             <p className="lead text-secondary">Arch & Sole provides focused podiatry care for everyday foot problems, mobility concerns, preventive care and long-term foot health.</p>
             <p>Our approach combines careful assessment, practical treatment and patient education so you understand your foot health and feel confident about the next step in your care.</p>
-            <Link className="btn btn-outline-brand rounded-pill px-4" to="/about">About Us</Link>
+            <Link className="btn btn-outline-brand rounded-pill px-4 w-100-mobile" to="/about">About Us</Link>
           </div>
           <div className="col-lg-6">
             <div className="premium-card p-4 p-lg-5" data-reveal>
@@ -45,7 +45,7 @@ export default function Home(){
       <div className="container">
         <div className="row align-items-center g-5">
           <div className="col-lg-7"><span className="section-kicker">DOCTORS & STAFF</span><h2 className="section-heading">Meet the Arch & Sole team</h2><p className="lead text-secondary">View our doctors and support staff together in one dedicated team section.</p></div>
-          <div className="col-lg-5 text-lg-end"><Link className="btn btn-brand btn-lg rounded-pill px-4" to="/team">Doctors & Staff</Link></div>
+          <div className="col-lg-5 text-lg-end"><Link className="btn btn-brand btn-lg rounded-pill px-4 w-100-mobile" to="/team">Doctors & Staff</Link></div>
         </div>
       </div>
     </section>

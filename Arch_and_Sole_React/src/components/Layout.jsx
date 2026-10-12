@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import MobileStickyBar from './MobileStickyBar';
 import useReveal from '../hooks/useReveal';
 
 export default function Layout() {
@@ -20,6 +21,8 @@ export default function Layout() {
         <Outlet />
       </main>
       <Footer />
+      <MobileStickyBar />
     </>
   );
 }
+
